@@ -423,8 +423,10 @@ input[type="checkbox"] {
 }
 
 .checkbox input[type="checkbox"]:checked + span {
-    background-color: #FF0000;
-    /*background: url('images/icon_check.svg') 0 0 no-repeat padding-box;*/
+    background-image: url('../images/icon_check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 13px;
 }
 
 /******** END Contact Section ********/
